@@ -7,10 +7,18 @@ este modulo esporta objetos con muchas propiedades
 
 const {
     nombre, direccion, paciente,
+} = require('./sih.js');
+
+const {
     rangoDoctor, doctor, enfermera,
     personalTecnico, tipoTecnico,
+} = require('./sih.js');
+
+const {
     departamento, pabellon, hospital,
 } = require('./sih.js');
+
+
 
 const titulo = (s) => console.log (`\n=== ${s} ===`);
 
@@ -23,3 +31,5 @@ const depTI = hospital1.agregarDepartamento(new departamento( {nombre: 'tecnolog
 
 const pabCardio = hospital1.agregarPabellon(new pabellon ({nombre:'pabellon cardio', capacidad: '2', especialidad: 'CARDIOLOGIA'}));
 const pabGeneral = hospital1.agregarPabellon(new pabellon({nombre: 'pabellon general', capacidad: '4'}));
+
+//Aca vamos 
