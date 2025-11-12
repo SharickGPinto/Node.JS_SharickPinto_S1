@@ -10,8 +10,7 @@ const {
 } = require('./sih.js');
 
 const {
-    rangoDoctor, doctor, enfermera,
-    personalTecnico, tipoTecnico,
+    rango, doctor, titulo, personal 
 } = require('./sih.js');
 
 const {
